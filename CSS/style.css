@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Unity Rich Text & HTML Gradient Generator</title>
+    <meta name="description" content="Salako" />
+    <style>
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+
+        #div_content {
+            text-align: center;
+            font-family: "Teko", sans-serif;
+        }
+
+        /* Các luật CSS khác (có thể sao chép từ file style.css của bạn) */
+
+#div_content {
+                
+  padding:20px;
+  margin:0 auto;
+  position:relative;
+  width:760px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+  border-radius:15px;
+  top:50px;
+  border:2px solid black;
+  /*Background Color Is Color For The Box*/
+  background-color: #000000b3;
+  transition: background .75s ease-out;          
+ }
+#div_content:Hover{
+  background-color: ##000000b3;
+}
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                /*color: Is Text Color*/
+                color: #fff
+            }
+            body {
+                font-family:Verdana;
+                font-size:13px;
+            }
+            a:link {color:#000000;}
+            a:visited {color:#333333;}
+            a:hover {color:#BBBBBB;}
+            #div_footer {
+                padding:10px 10px;
+                height:5px;
+                width:760px;
+                text-align:center;
+                font-size:10px;
+                color:#444444;
+            }
+
+          
+            #div_logo {
+                margin:0 auto;
+                width:760px;
+                height:40px;
+                text-align:center;
+                position:relative;
+            }
+.bg {
+    background: url(https://cdn.discordapp.com/attachments/1157617984752328788/1184078949077241966/skyscraper-building-daytime-world-window-architecture-1995037-wallhere.com.jpg) top center / cover no-repeat;
+}
+ @keyframes gradient {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 100% 50%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
