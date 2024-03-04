@@ -71,9 +71,9 @@
                 position:relative;
             }
 .bg {
-    background: url(https://cdn.discordapp.com/attachments/1157617984752328788/1184078949077241966/skyscraper-building-daytime-world-window-architecture-1995037-wallhere.com.jpg) top center / cover no-repeat;
+    background: url(https://media.discordapp.net/attachments/1157617984752328788/1213863846209658912/b294eca10a82eb5e7b532c58c41110a8_1.jpg?ex=65f705cd&is=65e490cd&hm=da08dea258978803481d40262f271b5f1c2d2cc021204bfe56d555fe6b5cb42e&=&format=webp&width=1038&height=671) top center / cover no-repeat;
 }
- @keyframes gradient {
+ @keyframes gradient 
                 0% {
                     background-position: 0% 50%;
                 }
